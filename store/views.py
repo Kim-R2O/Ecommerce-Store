@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from .models import *
 import json 
 import datetime
+#delate this
 
 def store(request):
 
