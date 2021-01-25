@@ -1,0 +1,20 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+    <div class="div">
+    	<form method="POST">
+    		<fieldset>
+    			<legend class="border-bottom mb-4">Join Today</legend>
+    			{{ form }}
+    		</fieldset>
+    		<div class="div">
+    			<button class="btn btn-outline-info" type="submit">Sign up</button>
+    		</div>
+    	</form>
+    	<div class="border-top pt-3">
+    		<small>
+    			Already Have an Account? <a class='ml-2' href='#'>Sign In<a/>
+    		</small>
+    	</div>
+    </div>
+{% endblock content %}
